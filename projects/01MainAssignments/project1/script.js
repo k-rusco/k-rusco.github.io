@@ -6,8 +6,8 @@ let bg=255;
 
 
 function preload(){
-	titlefont = loadFont(fonts/PLANK.otf)
-	subfont = loadFont(fonts/Karina.otf)
+	titlefont = loadFont('fonts/PLANK.otf')
+	subfont = loadFont('fonts/Karina.otf')
 }
 
 function setup() {
