@@ -1,6 +1,6 @@
 let titlefont;
 let subfont;
-let movingText = 'ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ '
+let movingText = 'ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~ui/ux designer ~ illustrator ~ graphic designer ~ animator ~ motion designer ~ creative coder ~ videomaker & photographer ~'
 let clicked= true;
 let bg=255;
 
@@ -41,7 +41,7 @@ function  draw() {
 	textFont(titlefont);
    textSize(120);
 	textAlign(CENTER)
-	rotateY(mouseX*0.012)
+	rotateY(mouseX*0.012-1)
 	text('Kiiwmee',90, 100)
 	pop()
 
@@ -58,19 +58,19 @@ function  draw() {
    }
 	pop()
 
-	mousecursor()
+	//mousecursor()
 	
 }
 
 
-function mousecursor(){
-	push()
-	translate(-width/2 + mouseX, -height/2 + mouseY, 500)
-	fill(255)
-	blendMode(EXCLUSION)
-	circle(-width/2 + mouseX, -height/2 + mouseY, 75)
-	pop()
-}
+//function mousecursor(){
+//	push()
+//	translate(-width/2 + mouseX, -height/2 + mouseY, 500)
+//	fill(255)
+//	blendMode(EXCLUSION)
+//	circle(-width/2 + mouseX, -height/2 + mouseY, 75)
+//	pop()
+//}
 
 function sub(){	
 	fill(0)
