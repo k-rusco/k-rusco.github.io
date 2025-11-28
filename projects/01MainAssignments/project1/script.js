@@ -41,7 +41,8 @@ function  draw() {
 	textFont(titlefont);
    textSize(120);
 	textAlign(CENTER)
-	rotateY(mouseX*0.012-1)
+	rotateY(mouseX*0.001-0.5)
+	rotateX(mouseY*0.0006)
 	text('Kiiwmee',90, 100)
 	pop()
 
