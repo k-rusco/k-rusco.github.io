@@ -58,9 +58,7 @@ function  draw() {
      circle(-150, -120, 2000);
    }
 	pop()
-
 	//mousecursor()
-	
 }
 
 
